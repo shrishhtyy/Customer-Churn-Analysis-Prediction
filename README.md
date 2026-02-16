@@ -1,6 +1,6 @@
 # Customer Churn Analysis & Prediction
 
-A machine learning project that predicts which telecom customers are likely to churn, using Random Forest with SMOTE for class imbalance handling
+A machine learning project that predicts which telecom customers are likely to churn, using Random Forest with SMOTE for class imbalance handling.
 
 ## Problem
 
