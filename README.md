@@ -16,13 +16,13 @@ Customer churn is expensive. Acquiring new customers costs 5 to 7x more than ret
 
 ## Approach
 
-1. **Data cleaning** | Removed customerID, fixed blank TotalCharges values, converted data types
-2. **EDA** | Histograms, box plots, correlation heatmap for numerical features; count plots for categorical features
-3. **Preprocessing** | Label encoding for all categorical features, saved encoders as pickle
-4. **Class balancing** | Applied SMOTE to oversample the minority class (churned customers)
-5. **Model comparison** | Trained Decision Tree, Random Forest, and XGBoost with 5-fold cross-validation
-6. **Final model** | Random Forest (highest CV accuracy), evaluated on held-out test set
-7. **Prediction system** | Built a reusable prediction pipeline using saved model and encoders
+1. **Data cleaning**: Removed customerID, fixed blank TotalCharges values, converted data types
+2. **EDA**: Histograms, box plots, correlation heatmap for numerical features; count plots for categorical features
+3. **Preprocessing**: Label encoding for all categorical features, saved encoders as pickle
+4. **Class balancing**: Applied SMOTE to oversample the minority class (churned customers)
+5. **Model comparison**: Trained Decision Tree, Random Forest, and XGBoost with 5-fold cross-validation
+6. **Final model**: Random Forest (highest CV accuracy), evaluated on held-out test set
+7. **Prediction system**: Built a reusable prediction pipeline using saved model and encoders
 
 ## Results
 
