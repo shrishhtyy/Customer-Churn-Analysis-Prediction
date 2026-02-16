@@ -4,7 +4,7 @@ A machine learning project that predicts which telecom customers are likely to c
 
 ## Problem
 
-Customer churn is expensive. Acquiring new customers costs 5 to 7x more than retaining existing ones. This project identifies which customers are at risk of leaving and what factors drive churn
+Customer churn is expensive. Acquiring new customers costs 5 to 7x more than retaining existing ones. This project identifies which customers are at risk of leaving and what factors drive churn.
 
 ## Dataset
 
